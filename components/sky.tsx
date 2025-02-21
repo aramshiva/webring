@@ -14,7 +14,7 @@ interface Star {
   newY?: number
 }
 
-const StarrySky: React.FC = () => {
+const Sky: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const starsRef = useRef<Star[]>([])
   const animationFrameRef = useRef<number>()
@@ -30,6 +30,7 @@ const StarrySky: React.FC = () => {
     const resizeCanvas = () => {
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
+      createStars()
     }
 
     const createStars = () => {
