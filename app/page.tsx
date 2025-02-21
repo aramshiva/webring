@@ -1,6 +1,5 @@
 "use client";
 import Sky from "@/components/sky";
-import { useEffect } from "react";
 import Link from "next/link";
 import localFont from "next/font/local";
 import Script from "next/script";
