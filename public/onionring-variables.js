@@ -9,7 +9,8 @@
 var sites = [
 'https://aram.sh',
 'https://dunkirk.sh',
-'https://felixgao.dev'
+'https://felixgao.dev',
+'https://neon.hackclub.app'
 ];
 
 //the name of the ring
