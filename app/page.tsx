@@ -22,10 +22,11 @@ export default function Home() {
         className={`relative z-10 flex flex-col items-center justify-center min-h-screen p-8 ${grapeSoda.className}`}
       >
         <h1 className="text-7xl font-bold">elr</h1>
-        <p className={`text-2xl pb-5 ${pearSoda.className}`}>
-          a <Link href="https://en.wikipedia.org/wiki/Webring">WEBRING</Link> of
+        <p className={`text-2xl pb-3 ${pearSoda.className}`}>
+          a <Link href="https://en.wikipedia.org/wiki/Webring">webring</Link> of
           technical, creative and cool people.{" "}
         </p>
+        <p className="text-xl">members:</p>
         <div
           id="index"
           className={`${pearSoda.className} max-w-md w-full text-2xl bg-white/10 backdrop-blur-sm rounded-lg p-6 shadow-lg [&_ul]:list-inside`}
