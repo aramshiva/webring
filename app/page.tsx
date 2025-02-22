@@ -24,7 +24,7 @@ export default function Home() {
         <h1 className="text-7xl font-bold">elr</h1>
         <p className={`text-2xl pb-3 ${pearSoda.className}`}>
           a <Link href="https://en.wikipedia.org/wiki/Webring">webring</Link> of
-          technical, creative and cool people.{" "}
+          technical and creative people.{" "}
         </p>
         <p className="text-xl">members:</p>
         <div
@@ -34,7 +34,7 @@ export default function Home() {
           <Script src="/onionring-variables.js" strategy="afterInteractive" />
           <Script src="/onionring-index.js" strategy="afterInteractive" />
         </div>
-        <p className="pt-9">
+        {/* <p className="pt-9">
           <span className={pearSoda.className}>want to join?</span>{" "}
           <span>
             contact{" "}
@@ -42,12 +42,16 @@ export default function Home() {
               aram
             </Link>
           </span>
-        </p>
+        </p> */}
         <footer className="fixed bottom-0 left-0 w-full p-4 text-center">
           <p>
             Fonts by{" "}
             <Link href="https://fontenddev.com/" className="underline text-xs">
               Font End Dev
+            </Link>
+            {" "}•{" "}Webring code by{" "}
+            <Link href="https://garlic.garden/onionring/" className="underline text-xs">
+              onionring
             </Link>
           </p>
         </footer>
