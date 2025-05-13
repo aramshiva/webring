@@ -6,7 +6,8 @@ var sites = [
 'https://dunkirk.sh',
 'https://felixgao.dev',
 'https://neon.hackclub.app',
-'https://apringle.tech'
+'https://apringle.tech',
+'https://nethull.com'
 ];
 
 var ringName = 'elr';
